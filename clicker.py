@@ -53,7 +53,6 @@ while run_game:
             else:
                 end_time = 0
             time_passed = (end_time - start_time) * 100
-            print(time_passed)
             scores = round(scores + time_passed * scores_multiplier)
         if event.type == pygame.QUIT:
             run_game = False
